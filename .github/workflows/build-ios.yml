@@ -1,0 +1,37 @@
+name: Build MAUI iOS (.ipa)
+
+on:
+  push:
+    branches: [ "main" ] # Hoặc đổi thành tên nhánh của bạn (ví dụ: master)
+  workflow_dispatch: # Cho phép bấm nút kích hoạt build thủ công trên web
+
+jobs:
+  build-ios:
+    runs-on: macos-13 # Sử dụng hạ tầng máy ảo macOS miễn phí của GitHub
+
+    steps:
+    - name: Checkout Source Code
+      uses: actions/checkout@v3
+
+    - name: Setup .NET SDK
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0.x' # Đổi thành 7.0.x hoặc 9.0.x tùy bản .NET dự án đang dùng
+
+    - name: Install MAUI Workload
+      run: dotnet workload install maui-ios
+
+    - name: Restore Dependencies
+      run: dotnet restore
+
+    - name: Build and Package iOS (.ipa)
+      run: |
+        dotnet publish -f net8.0-ios -c Release -p:ArchiveOnBuild=true -p:EnableAssemblyAOT=false
+
+    - name: Upload .ipa Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: iOS-App-IPA
+        path: |
+          **/bin/Release/net8.0-ios/ios-arm64/*.ipa
+          **/bin/Release/net8.0-ios/ios-arm64/publish/*.ipa
