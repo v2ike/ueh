@@ -22,12 +22,11 @@ jobs:
         run: dotnet workload install maui-ios maui-android
 
       - name: Restore Dependencies
-        run: dotnet restore -p:TargetFramework=net8.0-ios
+        run: dotnet restore UEHTheTeam/UEHTheTeam.csproj -p:TargetFramework=net8.0-ios -p:CheckEolTargetFramework=false
 
       - name: Build and Package iOS (.ipa)
         run: |
-          dotnet publish -f net8.0-ios -c Release -p:ArchiveOnBuild=true -p:EnableAssemblyAOT=false
-
+          dotnet publish UEHTheTeam/UEHTheTeam.csproj -f net8.0-ios -c Release -p:ArchiveOnBuild=true -p:EnableAssemblyAOT=false -p:CheckEolTargetFramework=false
       - name: Upload .ipa Artifact
         uses: actions/upload-artifact@v4
         with:
