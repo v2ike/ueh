@@ -27,6 +27,7 @@ jobs:
       - name: Build and Package iOS (.ipa)
         run: |
           dotnet publish UEHTheTeam/UEHTheTeam.csproj -f net8.0-ios -c Release -p:ArchiveOnBuild=true -p:EnableAssemblyAOT=false -p:CheckEolTargetFramework=false
+
       - name: Upload .ipa Artifact
         uses: actions/upload-artifact@v4
         with:
