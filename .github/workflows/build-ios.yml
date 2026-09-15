@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-ios:
-    runs-on: macos-13 # Sử dụng hạ tầng máy ảo macOS miễn phí của GitHub
+   runs-on: macos-latest
 
     steps:
     - name: Checkout Source Code
