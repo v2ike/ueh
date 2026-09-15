@@ -1,0 +1,10 @@
+<api type="debug" assembly-name="UEHtheTeam" mvid="2caa2640b1af480ab92e02e9cf38cb12">
+  <java-to-managed>
+    <entry java-name="crc64fb479e4a7741d468/MainActivity" managed-name="UEHtheTeam.MainActivity, UEHtheTeam" managed-type-token-id="33554444" />
+    <entry java-name="crc64fb479e4a7741d468/MainApplication" managed-name="UEHtheTeam.MainApplication, UEHtheTeam" managed-type-token-id="33554445" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="crc64fb479e4a7741d468/MainActivity" managed-name="UEHtheTeam.MainActivity, UEHtheTeam" managed-type-token-id="33554444" />
+    <entry java-name="crc64fb479e4a7741d468/MainApplication" managed-name="UEHtheTeam.MainApplication, UEHtheTeam" managed-type-token-id="33554445" />
+  </managed-to-java>
+</api>

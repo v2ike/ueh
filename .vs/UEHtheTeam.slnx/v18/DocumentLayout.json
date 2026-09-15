@@ -1,0 +1,404 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{844231D7-7DC0-59E6-7F1C-294F78FC5A9F}|UEHtheTeam\\UEHtheTeam.csproj|c:\\users\\os\\source\\repos\\uehtheteam\\uehtheteam\\.github\\workflows\\build-ios.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{844231D7-7DC0-59E6-7F1C-294F78FC5A9F}|UEHtheTeam\\UEHtheTeam.csproj|solutionrelative:uehtheteam\\.github\\workflows\\build-ios.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{844231D7-7DC0-59E6-7F1C-294F78FC5A9F}|UEHtheTeam\\UEHtheTeam.csproj|c:\\users\\os\\source\\repos\\uehtheteam\\uehtheteam\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{844231D7-7DC0-59E6-7F1C-294F78FC5A9F}|UEHtheTeam\\UEHtheTeam.csproj|solutionrelative:uehtheteam\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{844231D7-7DC0-59E6-7F1C-294F78FC5A9F}|UEHtheTeam\\UEHtheTeam.csproj|c:\\users\\os\\source\\repos\\uehtheteam\\uehtheteam\\chonmon.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{844231D7-7DC0-59E6-7F1C-294F78FC5A9F}|UEHtheTeam\\UEHtheTeam.csproj|solutionrelative:uehtheteam\\chonmon.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{844231D7-7DC0-59E6-7F1C-294F78FC5A9F}|UEHtheTeam\\UEHtheTeam.csproj|c:\\users\\os\\source\\repos\\uehtheteam\\uehtheteam\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{844231D7-7DC0-59E6-7F1C-294F78FC5A9F}|UEHtheTeam\\UEHtheTeam.csproj|solutionrelative:uehtheteam\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{844231D7-7DC0-59E6-7F1C-294F78FC5A9F}|UEHtheTeam\\UEHtheTeam.csproj|c:\\users\\os\\source\\repos\\uehtheteam\\uehtheteam\\chonmon.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{844231D7-7DC0-59E6-7F1C-294F78FC5A9F}|UEHtheTeam\\UEHtheTeam.csproj|solutionrelative:uehtheteam\\chonmon.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C7E0146-CE4A-43E8-AD44-87C93D0B22DC}|UEHTeamUp.API\\UEHTeamUp.API.csproj|c:\\users\\os\\source\\repos\\uehtheteam\\uehteamup.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C7E0146-CE4A-43E8-AD44-87C93D0B22DC}|UEHTeamUp.API\\UEHTeamUp.API.csproj|solutionrelative:uehteamup.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{844231D7-7DC0-59E6-7F1C-294F78FC5A9F}|UEHtheTeam\\UEHtheTeam.csproj|c:\\users\\os\\source\\repos\\uehtheteam\\uehtheteam\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{844231D7-7DC0-59E6-7F1C-294F78FC5A9F}|UEHtheTeam\\UEHtheTeam.csproj|solutionrelative:uehtheteam\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C7E0146-CE4A-43E8-AD44-87C93D0B22DC}|UEHTeamUp.API\\UEHTeamUp.API.csproj|c:\\users\\os\\source\\repos\\uehtheteam\\uehteamup.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5C7E0146-CE4A-43E8-AD44-87C93D0B22DC}|UEHTeamUp.API\\UEHTeamUp.API.csproj|solutionrelative:uehteamup.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C7E0146-CE4A-43E8-AD44-87C93D0B22DC}|UEHTeamUp.API\\UEHTeamUp.API.csproj|c:\\users\\os\\source\\repos\\uehtheteam\\uehteamup.api\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C7E0146-CE4A-43E8-AD44-87C93D0B22DC}|UEHTeamUp.API\\UEHTeamUp.API.csproj|solutionrelative:uehteamup.api\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C7E0146-CE4A-43E8-AD44-87C93D0B22DC}|UEHTeamUp.API\\UEHTeamUp.API.csproj|c:\\users\\os\\source\\repos\\uehtheteam\\uehteamup.api\\controllers\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C7E0146-CE4A-43E8-AD44-87C93D0B22DC}|UEHTeamUp.API\\UEHTeamUp.API.csproj|solutionrelative:uehteamup.api\\controllers\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C7E0146-CE4A-43E8-AD44-87C93D0B22DC}|UEHTeamUp.API\\UEHTeamUp.API.csproj|c:\\users\\os\\source\\repos\\uehtheteam\\uehteamup.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C7E0146-CE4A-43E8-AD44-87C93D0B22DC}|UEHTeamUp.API\\UEHTeamUp.API.csproj|solutionrelative:uehteamup.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C7E0146-CE4A-43E8-AD44-87C93D0B22DC}|UEHTeamUp.API\\UEHTeamUp.API.csproj|c:\\users\\os\\source\\repos\\uehtheteam\\uehteamup.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C7E0146-CE4A-43E8-AD44-87C93D0B22DC}|UEHTeamUp.API\\UEHTeamUp.API.csproj|solutionrelative:uehteamup.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C7E0146-CE4A-43E8-AD44-87C93D0B22DC}|UEHTeamUp.API\\UEHTeamUp.API.csproj|c:\\users\\os\\source\\repos\\uehtheteam\\uehteamup.api\\dtos\\studentgroupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C7E0146-CE4A-43E8-AD44-87C93D0B22DC}|UEHTeamUp.API\\UEHTeamUp.API.csproj|solutionrelative:uehteamup.api\\dtos\\studentgroupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{844231D7-7DC0-59E6-7F1C-294F78FC5A9F}|UEHtheTeam\\UEHtheTeam.csproj|c:\\users\\os\\source\\repos\\uehtheteam\\uehtheteam\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{844231D7-7DC0-59E6-7F1C-294F78FC5A9F}|UEHtheTeam\\UEHtheTeam.csproj|solutionrelative:uehtheteam\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C7E0146-CE4A-43E8-AD44-87C93D0B22DC}|UEHTeamUp.API\\UEHTeamUp.API.csproj|c:\\users\\os\\source\\repos\\uehtheteam\\uehteamup.api\\uehteamup.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5C7E0146-CE4A-43E8-AD44-87C93D0B22DC}|UEHTeamUp.API\\UEHTeamUp.API.csproj|solutionrelative:uehteamup.api\\uehteamup.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{844231D7-7DC0-59E6-7F1C-294F78FC5A9F}|UEHtheTeam\\UEHtheTeam.csproj|c:\\users\\os\\source\\repos\\uehtheteam\\uehtheteam\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{844231D7-7DC0-59E6-7F1C-294F78FC5A9F}|UEHtheTeam\\UEHtheTeam.csproj|solutionrelative:uehtheteam\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{844231D7-7DC0-59E6-7F1C-294F78FC5A9F}|UEHtheTeam\\UEHtheTeam.csproj|c:\\users\\os\\source\\repos\\uehtheteam\\uehtheteam\\uehtheteam.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{844231D7-7DC0-59E6-7F1C-294F78FC5A9F}|UEHtheTeam\\UEHtheTeam.csproj|solutionrelative:uehtheteam\\uehtheteam.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C7E0146-CE4A-43E8-AD44-87C93D0B22DC}|UEHTeamUp.API\\UEHTeamUp.API.csproj|c:\\users\\os\\source\\repos\\uehtheteam\\uehteamup.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C7E0146-CE4A-43E8-AD44-87C93D0B22DC}|UEHTeamUp.API\\UEHTeamUp.API.csproj|solutionrelative:uehteamup.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C7E0146-CE4A-43E8-AD44-87C93D0B22DC}|UEHTeamUp.API\\UEHTeamUp.API.csproj|c:\\users\\os\\source\\repos\\uehtheteam\\uehteamup.api\\uehteamup.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{5C7E0146-CE4A-43E8-AD44-87C93D0B22DC}|UEHTeamUp.API\\UEHTeamUp.API.csproj|solutionrelative:uehteamup.api\\uehteamup.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{844231D7-7DC0-59E6-7F1C-294F78FC5A9F}|UEHtheTeam\\UEHtheTeam.csproj|c:\\users\\os\\source\\repos\\uehtheteam\\uehtheteam\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{844231D7-7DC0-59E6-7F1C-294F78FC5A9F}|UEHtheTeam\\UEHtheTeam.csproj|solutionrelative:uehtheteam\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{844231D7-7DC0-59E6-7F1C-294F78FC5A9F}|UEHtheTeam\\UEHtheTeam.csproj|c:\\users\\os\\source\\repos\\uehtheteam\\uehtheteam\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{844231D7-7DC0-59E6-7F1C-294F78FC5A9F}|UEHtheTeam\\UEHtheTeam.csproj|solutionrelative:uehtheteam\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHTeamUp.API\\Services\\ApiService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UEHTeamUp.API\\Services\\ApiService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "build-ios.yml",
+              "DocumentMoniker": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHtheTeam\\.github\\workflows\\build-ios.yml",
+              "RelativeDocumentMoniker": "UEHtheTeam\\.github\\workflows\\build-ios.yml",
+              "ToolTip": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHtheTeam\\.github\\workflows\\build-ios.yml",
+              "RelativeToolTip": "UEHtheTeam\\.github\\workflows\\build-ios.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-09-15T12:26:10.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHtheTeam\\App.xaml.cs",
+              "RelativeDocumentMoniker": "UEHtheTeam\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHtheTeam\\App.xaml.cs",
+              "RelativeToolTip": "UEHtheTeam\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T16:11:32.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChonMon.xaml",
+              "DocumentMoniker": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHtheTeam\\ChonMon.xaml",
+              "RelativeDocumentMoniker": "UEHtheTeam\\ChonMon.xaml",
+              "ToolTip": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHtheTeam\\ChonMon.xaml",
+              "RelativeToolTip": "UEHtheTeam\\ChonMon.xaml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-14T13:40:31.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHtheTeam\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "UEHtheTeam\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHtheTeam\\Models\\Course.cs",
+              "RelativeToolTip": "UEHtheTeam\\Models\\Course.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA6wBsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T15:41:59.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHtheTeam\\Login.xaml",
+              "RelativeDocumentMoniker": "UEHtheTeam\\Login.xaml",
+              "ToolTip": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHtheTeam\\Login.xaml",
+              "RelativeToolTip": "UEHtheTeam\\Login.xaml",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAmwFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-14T13:35:10.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHTeamUp.API\\Program.cs",
+              "RelativeDocumentMoniker": "UEHTeamUp.API\\Program.cs",
+              "ToolTip": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHTeamUp.API\\Program.cs",
+              "RelativeToolTip": "UEHTeamUp.API\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAASwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T15:01:05.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHTeamUp.API\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "UEHTeamUp.API\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHTeamUp.API\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "UEHTeamUp.API\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T15:43:29.1Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChonMon.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHtheTeam\\ChonMon.xaml.cs",
+              "RelativeDocumentMoniker": "UEHtheTeam\\ChonMon.xaml.cs",
+              "ToolTip": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHtheTeam\\ChonMon.xaml.cs",
+              "RelativeToolTip": "UEHtheTeam\\ChonMon.xaml.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAgwD8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T15:22:59.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHTeamUp.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "UEHTeamUp.API\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHTeamUp.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "UEHTeamUp.API\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T15:43:31.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHTeamUp.API\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "UEHTeamUp.API\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHTeamUp.API\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "UEHTeamUp.API\\Controllers\\CoursesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T15:43:42.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHTeamUp.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "UEHTeamUp.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHTeamUp.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "UEHTeamUp.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-14T15:43:46.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GroupsController.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHTeamUp.API\\Controllers\\GroupsController.cs",
+              "RelativeDocumentMoniker": "UEHTeamUp.API\\Controllers\\GroupsController.cs",
+              "ToolTip": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHTeamUp.API\\Controllers\\GroupsController.cs",
+              "RelativeToolTip": "UEHTeamUp.API\\Controllers\\GroupsController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T14:26:55.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHtheTeam\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "UEHtheTeam\\Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHtheTeam\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "UEHtheTeam\\Platforms\\Android\\AndroidManifest.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-09-14T13:29:27.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHTeamUp.API\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "UEHTeamUp.API\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHTeamUp.API\\WeatherForecast.cs",
+              "RelativeToolTip": "UEHTeamUp.API\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T13:48:25.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UEHTeamUp.API.csproj",
+              "DocumentMoniker": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHTeamUp.API\\UEHTeamUp.API.csproj",
+              "RelativeDocumentMoniker": "UEHTeamUp.API\\UEHTeamUp.API.csproj",
+              "ToolTip": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHTeamUp.API\\UEHTeamUp.API.csproj",
+              "RelativeToolTip": "UEHTeamUp.API\\UEHTeamUp.API.csproj",
+              "ViewState": "AgIAABEAAAAAAAAAAABBwAkAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-14T00:18:32.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StudentGroupDto.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHTeamUp.API\\DTOs\\StudentGroupDto.cs",
+              "RelativeDocumentMoniker": "UEHTeamUp.API\\DTOs\\StudentGroupDto.cs",
+              "ToolTip": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHTeamUp.API\\DTOs\\StudentGroupDto.cs",
+              "RelativeToolTip": "UEHTeamUp.API\\DTOs\\StudentGroupDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T13:44:56.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHtheTeam\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "UEHtheTeam\\Services\\ApiService.cs",
+              "ToolTip": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHtheTeam\\Services\\ApiService.cs",
+              "RelativeToolTip": "UEHtheTeam\\Services\\ApiService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA5wBEAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T15:17:54.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UEHtheTeam",
+              "DocumentMoniker": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHtheTeam\\UEHtheTeam.csproj",
+              "RelativeDocumentMoniker": "UEHtheTeam\\UEHtheTeam.csproj",
+              "ToolTip": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHtheTeam\\UEHtheTeam.csproj",
+              "RelativeToolTip": "UEHtheTeam\\UEHtheTeam.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-14T15:06:04.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UEHTeamUp.API.http",
+              "DocumentMoniker": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHTeamUp.API\\UEHTeamUp.API.http",
+              "RelativeDocumentMoniker": "UEHTeamUp.API\\UEHTeamUp.API.http",
+              "ToolTip": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHTeamUp.API\\UEHTeamUp.API.http",
+              "RelativeToolTip": "UEHTeamUp.API\\UEHTeamUp.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-09-14T13:48:18.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHTeamUp.API\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "UEHTeamUp.API\\Services\\ApiService.cs",
+              "ToolTip": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHTeamUp.API\\Services\\ApiService.cs",
+              "RelativeToolTip": "UEHTeamUp.API\\Services\\ApiService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T13:47:55.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHtheTeam\\MainPage.xaml",
+              "RelativeDocumentMoniker": "UEHtheTeam\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHtheTeam\\MainPage.xaml",
+              "RelativeToolTip": "UEHtheTeam\\MainPage.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-14T13:35:03.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHtheTeam\\Platforms\\Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "UEHtheTeam\\Platforms\\Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\OS\\source\\repos\\UEHtheTeam\\UEHtheTeam\\Platforms\\Android\\MainActivity.cs",
+              "RelativeToolTip": "UEHtheTeam\\Platforms\\Android\\MainActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T13:29:03.376Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{007a3a6b-b5b2-454d-a2bd-cf929f989be2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

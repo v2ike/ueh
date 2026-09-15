@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UEHtheTeam.Login"
+             Title="Login"
+             NavigationPage.HasNavigationBar="False"
+             Shell.NavBarIsVisible="False">
+
+  
+
+        <!-- Mobile Device Frame Container -->
+        <Grid HorizontalOptions="Center" 
+          VerticalOptions="Center" 
+          MaximumWidthRequest="393" 
+          HeightRequest="852" 
+          BackgroundColor="#E0F2F1">
+
+            <!-- Screen Radial Gradient Background Glow -->
+            <BoxView Color="#C8E6E1"
+                 Opacity="0.45"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Center"
+                 HeightRequest="450"
+                 WidthRequest="450"
+                 CornerRadius="225"
+                 Margin="0,120,0,0" />
+
+            <Grid RowDefinitions="Auto, *, Auto" ZIndex="10">
+
+                <!-- iOS Status Bar -->
+                <Grid Grid.Row="0" HeightRequest="44" Padding="28,12,28,0" ColumnDefinitions="Auto, *">
+                    <Label Text="9:41" FontSize="15" FontAttributes="Bold" TextColor="#111827" VerticalOptions="Center"/>
+                </Grid>
+
+                <!-- Main Screen Content Area -->
+                <ScrollView Grid.Row="1" VerticalScrollBarVisibility="Never">
+                    <VerticalStackLayout Padding="28,40,28,24" Spacing="0">
+
+                        <!-- UEH Brand Logo Header -->
+                        <VerticalStackLayout HorizontalOptions="Center" Margin="0,0,0,36" Spacing="4">
+                            <Label Text="UEH" 
+                               FontSize="44" 
+                               FontAttributes="Bold" 
+                               TextColor="#004D40" 
+                               HorizontalTextAlignment="Center"
+                               CharacterSpacing="-1"/>
+                            <Label Text="UNIVERSITY" 
+                               FontSize="12" 
+                               FontAttributes="Bold" 
+                               TextColor="#E65100" 
+                               HorizontalTextAlignment="Center"
+                               CharacterSpacing="2.6"/>
+                        </VerticalStackLayout>
+
+                        <!-- Form Title & Subtitle -->
+                        <VerticalStackLayout Margin="0,0,0,24" Spacing="4">
+                            <Label Text="Đăng nhập" 
+                               FontSize="26" 
+                               FontAttributes="Bold" 
+                               TextColor="#004D40" />
+                            <Label Text="Dùng tài khoản Google sinh viên" 
+                               FontSize="14" 
+                               TextColor="#757575" />
+                        </VerticalStackLayout>
+
+                        <!-- Login Form Inputs & Actions -->
+                        <VerticalStackLayout Spacing="16">
+
+                            <!-- Email Input Card -->
+                            <Border StrokeShape="RoundRectangle 16" 
+                                Stroke="#EBEBEB" 
+                                StrokeThickness="1"
+                                BackgroundColor="White" 
+                                Padding="1" 
+                                HeightRequest="68">
+                                <Border.Shadow>
+                                    <Shadow Brush="Black" Offset="0,2" Radius="4" Opacity="0.03"/>
+                                </Border.Shadow>
+                                <VerticalStackLayout Spacing="2" VerticalOptions="Center">
+                                    <Label Text="Email" FontSize="11" TextColor="#9E9E9E" FontAttributes="Bold"/>
+                                    <Entry
+                                        x:Name="EmailEntry"
+                                       Text="ngocla.31251022958@st.ueh.edu.vn" 
+                                       Placeholder="student@st.ueh.edu.vn"
+                                       Keyboard="Email"
+                                       FontSize="18" 
+                                       TextColor="#1F2937" 
+                                       BackgroundColor="Transparent"
+                                       Margin="0"
+                                       />
+                                </VerticalStackLayout>
+                            </Border>
+
+                            <!-- Password Input Card -->
+                            <Border StrokeShape="RoundRectangle 16" 
+                                Stroke="#EBEBEB" 
+                                StrokeThickness="1"
+                                BackgroundColor="White" 
+                                Padding="16,12" 
+                                HeightRequest="68">
+                                <Border.Shadow>
+                                    <Shadow Brush="Black" Offset="0,2" Radius="4" Opacity="0.03"/>
+                                </Border.Shadow>
+                                <VerticalStackLayout Spacing="2" VerticalOptions="Center">
+                                    <Label Text="Mật khẩu" FontSize="11" TextColor="#9E9E9E" FontAttributes="Bold"/>
+                                    <Entry x:Name="PasswordEntry" 
+                                       Text="secretpassword123" 
+                                       Placeholder="••••••••"
+                                       IsPassword="True" 
+                                       FontSize="16" 
+                                       TextColor="#1F2937" 
+                                       BackgroundColor="Transparent"
+                                       Margin="0"/>
+                                </VerticalStackLayout>
+                            </Border>
+
+                            <!-- Primary Submit Button -->
+                            <Button x:Name="SubmitButton"
+                                Text="Tiếp theo" 
+                                BackgroundColor="#004D40" 
+                                TextColor="White" 
+                                FontSize="16" 
+                                FontAttributes="Bold" 
+                                CornerRadius="16" 
+                                HeightRequest="52" 
+                                Margin="0,8,0,0"
+                                Clicked="OnSubmitClicked">
+                                <Button.Shadow>
+                                    <Shadow Brush="#004D40" Offset="0,4" Radius="6" Opacity="0.25"/>
+                                </Button.Shadow>
+                            </Button>
+
+                            <!-- Back Navigation Link -->
+                            <HorizontalStackLayout HorizontalOptions="Center" Spacing="6" Margin="0,12,0,0">
+                                <HorizontalStackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnBackTapped"/>
+                                </HorizontalStackLayout.GestureRecognizers>
+                                <Label Text="←" TextColor="#004D40" FontSize="18" VerticalOptions="Center"/>
+                                <Label Text="Quay lại" TextColor="#004D40" FontSize="15" FontAttributes="Bold" VerticalOptions="Center"/>
+                            </HorizontalStackLayout>
+
+                        </VerticalStackLayout>
+                    </VerticalStackLayout>
+                </ScrollView>
+
+                <!-- iOS Home Indicator Bar -->
+                <BoxView Grid.Row="2" 
+                     Color="#111827" 
+                     Opacity="0.9" 
+                     WidthRequest="136" 
+                     HeightRequest="5" 
+                     CornerRadius="2.5" 
+                     HorizontalOptions="Center" 
+                     Margin="0,4,0,8"/>
+            </Grid>
+        </Grid>
+    </ContentPage>

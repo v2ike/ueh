@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="UEHTeamUp.API/UEHTeamUp.API.csproj" Id="5c7e0146-ce4a-43e8-ad44-87c93d0b22dc" />
+  <Project Path="UEHtheTeam/UEHtheTeam.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+</Solution>
