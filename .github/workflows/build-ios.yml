@@ -13,30 +13,37 @@ jobs:
       - name: Checkout Source Code
         uses: actions/checkout@v4
 
-      # 1. Setup SDK .NET 10
+      # 1. Cài đặt SDK .NET 10
       - name: Setup .NET SDK
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '10.0.x'
 
-      # 2. Chỉ cài workload maui-ios để tối ưu thời gian
+      # 2. Cài đặt Workload MAUI iOS
       - name: Install MAUI iOS Workload
         run: dotnet workload install maui-ios
 
-      # 3. Restore chuẩn theo net10.0-ios và đúng tên file project
+      # 3. Restore các dependencies
       - name: Restore Dependencies
         run: dotnet restore UEHTheTeam/UEHTheTeam.csproj -p:TargetFramework=net10.0-ios
 
-      # 4. Build & Publish ra file .ipa dùng net10.0-ios
+      # 4. Build & Package iOS (.ipa) Unsigned (Bỏ qua Code Signing)
       - name: Build and Package iOS (.ipa)
         run: |
           dotnet publish UEHTheTeam/UEHTheTeam.csproj \
             -f net10.0-ios \
             -c Release \
             -p:ArchiveOnBuild=true \
-            -p:EnableAssemblyAOT=false
+            -p:EnableAssemblyAOT=false \
+            -p:CodesignKey="" \
+            -p:CodesignProvision="" \
+            -p:ServerAddress="" \
+            -p:ServerUser="" \
+            -p:ServerPassword="" \
+            -p:TcpPort="" \
+            -p:BuildIpa=true
 
-      # 5. Gom file .ipa đầu ra
+      # 5. Lưu trữ file Artifacts sau khi build xong
       - name: Upload .ipa Artifact
         uses: actions/upload-artifact@v4
         with:
