@@ -13,24 +13,34 @@ jobs:
       - name: Checkout Source Code
         uses: actions/checkout@v4
 
+      # 1. Setup SDK .NET 10
       - name: Setup .NET SDK
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '8.0.x'
+          dotnet-version: '10.0.x'
 
-      - name: Install MAUI Workloads
-        run: dotnet workload install maui-ios maui-android
+      # 2. Chỉ cài workload maui-ios để tối ưu thời gian
+      - name: Install MAUI iOS Workload
+        run: dotnet workload install maui-ios
 
+      # 3. Restore chuẩn theo net10.0-ios và đúng tên file project
       - name: Restore Dependencies
-        run: dotnet restore UEHtheTeam/UEHtheTeam.csproj -p:TargetFramework=net8.0-ios
+        run: dotnet restore UEHTheTeam/UEHTheTeam.csproj -p:TargetFramework=net10.0-ios
 
+      # 4. Build & Publish ra file .ipa dùng net10.0-ios
       - name: Build and Package iOS (.ipa)
         run: |
-          dotnet publish UEHTheTeam/UEHTheTeam.csproj -f net8.0-ios -c Release -p:ArchiveOnBuild=true -p:EnableAssemblyAOT=false -p:CheckEolTargetFramework=false
+          dotnet publish UEHTheTeam/UEHTheTeam.csproj \
+            -f net10.0-ios \
+            -c Release \
+            -p:ArchiveOnBuild=true \
+            -p:EnableAssemblyAOT=false
+
+      # 5. Gom file .ipa đầu ra
       - name: Upload .ipa Artifact
         uses: actions/upload-artifact@v4
         with:
           name: iOS-App-IPA
           path: |
-            **/bin/Release/net8.0-ios/ios-arm64/*.ipa
-            **/bin/Release/net8.0-ios/ios-arm64/publish/*.ipa
+            **/bin/Release/net10.0-ios/ios-arm64/*.ipa
+            **/bin/Release/net10.0-ios/ios-arm64/publish/*.ipa
