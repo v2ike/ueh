@@ -27,23 +27,18 @@ jobs:
       - name: Restore Dependencies
         run: dotnet restore UEHTheTeam/UEHTheTeam.csproj -p:TargetFramework=net10.0-ios
 
-      # 4. Build & Package iOS (.ipa) Unsigned (Bỏ qua Code Signing)
+      # 4. Build & Package iOS Unsigned (Tắt Code Signing triệt để)
       - name: Build and Package iOS (.ipa)
         run: |
           dotnet publish UEHTheTeam/UEHTheTeam.csproj \
             -f net10.0-ios \
             -c Release \
+            -p:EnableCodeSigning=false \
             -p:ArchiveOnBuild=true \
             -p:EnableAssemblyAOT=false \
-            -p:CodesignKey="" \
-            -p:CodesignProvision="" \
-            -p:ServerAddress="" \
-            -p:ServerUser="" \
-            -p:ServerPassword="" \
-            -p:TcpPort="" \
             -p:BuildIpa=true
 
-      # 5. Lưu trữ file Artifacts sau khi build xong
+      # 5. Lưu trữ file Artifacts
       - name: Upload .ipa Artifact
         uses: actions/upload-artifact@v4
         with:
