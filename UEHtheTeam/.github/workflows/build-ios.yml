@@ -1,37 +1,38 @@
-name: Build MAUI iOS (.ipa)
+name: Build iOS App
 
 on:
   push:
     branches: [ "main" ]
-  workflow_dispatch:
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
-  build-ios:
-    runs-on: macos-latest
+  build:
+    runs-on: macos-14 # Chạy trên máy ảo macOS mới nhất của GitHub
 
     steps:
-    - name: Checkout Source Code
+    - name: Checkout Code
       uses: actions/checkout@v4
 
+    # 1. Ép runner sử dụng đúng SDK .NET 8 LTS để không bị lỗi EOL của SDK 10
     - name: Setup .NET SDK
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: '8.0.x'
 
+    # 2. Cài đặt workload MAUI iOS
     - name: Install MAUI Workload
       run: dotnet workload install maui-ios
 
+    # 3. Restore các thư viện cho dự án
     - name: Restore Dependencies
-      run: dotnet restore
+      run: dotnet restore UEHTheTeam/UEHTheTeam.csproj -f
 
-    - name: Build and Package iOS (.ipa)
+    # 4. Tiến hành Build app iOS
+    - name: Build iOS (.ipa)
       run: |
-        dotnet publish -f net8.0-ios -c Release -p:ArchiveOnBuild=true -p:EnableAssemblyAOT=false
-
-    - name: Upload .ipa Artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: iOS-App-IPA
-        path: |
-          **/bin/Release/net8.0-ios/ios-arm64/*.ipa
-          **/bin/Release/net8.0-ios/ios-arm64/publish/*.ipa
+        dotnet publish UEHTheTeam/UEHTheTeam.csproj \
+          -c Release \
+          -f net8.0-ios \
+          -p:ArchiveOnBuild=true \
+          -p:EnableAssemblyILStripping=false
