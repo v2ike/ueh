@@ -22,7 +22,7 @@ jobs:
         run: dotnet workload install maui-ios maui-android
 
       - name: Restore Dependencies
-        run: dotnet restore -p:SkipExtraWorkloadInstall=true
+        run: dotnet restore -p:TargetFramework=net8.0-ios
 
       - name: Build and Package iOS (.ipa)
         run: |
