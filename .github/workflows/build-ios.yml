@@ -9,7 +9,7 @@ jobs:
   build-ios:
    runs-on: macos-latest
 
-    steps:
+   steps:
     - name: Checkout Source Code
       uses: actions/checkout@v3
 
@@ -19,7 +19,7 @@ jobs:
         dotnet-version: '8.0.x' # Đổi thành 7.0.x hoặc 9.0.x tùy bản .NET dự án đang dùng
 
     - name: Install MAUI Workload
-      run: dotnet workload install maui-ios
+      run: dotnet workload restore
 
     - name: Restore Dependencies
       run: dotnet restore
