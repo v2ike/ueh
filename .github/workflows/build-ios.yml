@@ -2,36 +2,36 @@ name: Build MAUI iOS (.ipa)
 
 on:
   push:
-    branches: [ "main" ] # Hoặc đổi thành tên nhánh của bạn (ví dụ: master)
-  workflow_dispatch: # Cho phép bấm nút kích hoạt build thủ công trên web
+    branches: [ "main" ]
+  workflow_dispatch:
 
 jobs:
   build-ios:
-   runs-on: macos-latest
+    runs-on: macos-latest
 
-   steps:
-    - name: Checkout Source Code
-      uses: actions/checkout@v3
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v4
 
-    - name: Setup .NET SDK
-      uses: actions/setup-dotnet@v3
-      with:
-        dotnet-version: '8.0.x' # Đổi thành 7.0.x hoặc 9.0.x tùy bản .NET dự án đang dùng
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
 
-    - name: Install MAUI Workload
-      run: dotnet workload restore
+      - name: Install MAUI Workloads
+        run: dotnet workload install maui-ios maui-android
 
-    - name: Restore Dependencies
-      run: dotnet restore -p:TargetFramework=net8.0-ios
+      - name: Restore Dependencies
+        run: dotnet restore -p:SkipExtraWorkloadInstall=true
 
-    - name: Build and Package iOS (.ipa)
-      run: |
-        dotnet publish -f net8.0-ios -c Release -p:ArchiveOnBuild=true -p:EnableAssemblyAOT=false
+      - name: Build and Package iOS (.ipa)
+        run: |
+          dotnet publish -f net8.0-ios -c Release -p:ArchiveOnBuild=true -p:EnableAssemblyAOT=false
 
-    - name: Upload .ipa Artifact
-      uses: actions/upload-artifact@v3
-      with:
-        name: iOS-App-IPA
-        path: |
-          **/bin/Release/net8.0-ios/ios-arm64/*.ipa
-          **/bin/Release/net8.0-ios/ios-arm64/publish/*.ipa
+      - name: Upload .ipa Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: iOS-App-IPA
+          path: |
+            **/bin/Release/net8.0-ios/ios-arm64/*.ipa
+            **/bin/Release/net8.0-ios/ios-arm64/publish/*.ipa
